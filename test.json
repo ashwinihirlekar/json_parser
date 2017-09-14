@@ -1,0 +1,136 @@
+{
+	"temp_res": {
+		"request": "abcb",
+		"expl_code": "ab0000",
+		"expl_message": "Success",
+		"resp_timestamp": "2015-08-04T11:13:54.688-0700"
+	},
+	"treatments": [{
+		"emp_treat_status": "ELIGIBLE",
+		"component_treatments": [{
+			"component_identifier": "cop_iden",
+			"treat_metadata": [{
+				"treat_identifier": "ABCD",
+				"domain": "INS",
+				"emp_objects": [{
+					"emp_number": "1234",
+					"cobrand_prtr_unit": "",
+					"bal_info": {
+						"cmv": "00000000",
+						"cr_cd": "",
+						"first_yr_pti": "",
+						"first_yr_revn": "",
+						"first_yr_spend": "1234.0",
+						"line_of_cr": "00000",
+						"prod_unit_metric": "00000000",
+						"scnd_yr_pti": "",
+						"scnd_yr_revn": ""
+					}
+				},
+				{
+					"emp_number": "129988366",
+					"cobrand_prtr_unit": "ABCD00001234",
+					"bal_info": {
+						"cmv": "88888888",
+						"cr_cd": "",
+						"first_yr_pti": "",
+						"first_yr_revn": "",
+						"first_yr_spend": "123456.0",
+						"line_of_cr": "00000",
+						"prod_unit_metric": "00000000",
+						"scnd_yr_pti": "",
+						"scnd_yr_revn": ""
+					}
+				}],
+				"display_rank": 1,
+				"rsvp_cd": "XYZ",
+				"treat_duration": {
+					"display_end_date": "2017-12-28"
+				},
+				"treat_content": {
+					"treat_name": "Emp_info"
+				},
+				"additional_parameters": {
+					"treat_score": "0.1234567890",
+					"cmpgn_in": "0",
+					"greet_ty": "15786766426",
+					"greet_sub_ty": "12334326437",
+					"dept_cd": "H5Y",
+					"dept_unit": "CCSG",
+					"triggers_and_true_needs": [{
+						"key_benefit": "Maximize your points by adding someone to your dept",
+						"trigger": "No Trigger",
+						"trigger_score": "0.9234567890",
+						"transition_statement": "I noticed you don't have any additional emps...",
+						"true_need": "Control/Convenience"
+					},
+					{
+						"key_benefit": "Promotion",
+						"trigger": "High Spend",
+						"trigger_score": "0.1234567890",
+						"transition_statement": "As a valued emp ...we’d like to extend...",
+						"true_need": "Borrowing"
+					}]
+				}
+			}]
+		},
+		{
+			"component_identifier": "cop_iden",
+			"treat_metadata": [{
+				"treat_identifier": "Z00000Y34A",
+				"domain": "emp",
+				"emp_objects": [{
+					"emp_number": "123456789999",
+					"cobrand_prtr_unit": "",
+					"bal_info": {
+						"cmv": "99999999",
+						"cr_cd": "",
+						"first_yr_pti": "",
+						"first_yr_revn": "",
+						"first_yr_spend": "109990.0",
+						"line_of_cr": "00000",
+						"prod_unit_metric": "00000000",
+						"scnd_yr_pti": "",
+						"scnd_yr_revn": ""
+					}
+				}],
+				"display_rank": 2,
+				"rsvp_cd": "WQ42",
+				"treat_duration": {
+					"display_end_date": "2017-09-28"
+				},
+				"treat_content": {
+					"treat_name": "InternalAcquisition"
+				},
+				"additional_parameters": {
+					"treat_score": "0.1234567890",
+					"cmpgn_in": "0",
+					"greet_ty": "1500026426",
+					"greet_sub_ty": "1500026437",
+					"dept_cd": "H5Y",
+					"dept_unit": "CCSG",
+					"triggers_and_true_needs": [{
+						"key_benefit": "Maximize your points by adding someone to your dept",
+						"trigger": "No Trigger",
+						"trigger_score": "0.9234567890",
+						"transition_statement": "I noticed you don't have any additional emps...",
+						"true_need": "Control/Convenience",
+						"trigger_id": "222"
+					},
+					{
+						"key_benefit": "Promo need",
+						"trigger": "High Spend",
+						"trigger_score": "0.1234567890",
+						"transition_statement": "As a valued emp with us we’d like to extend...",
+						"true_need": "Borrowing",
+						"trigger_id": "222"
+					}]
+				}
+			}]
+		}]
+	}],
+	"emp_info": {
+		"emp_uniq_cd": "573432688089"
+	}
+}
+

@@ -1,0 +1,46 @@
+i want to extract below columns data (header is not required) as rows with ctrl+A delimeter 
+new line after each row for each emp_number record
+
+emp_number
+cobrand_prtr_unit
+cmv
+cr_cd
+first_yr_pti
+first_yr_revn
+first_yr_spend
+line_of_cr
+prod_unit_metric
+scnd_yr_pti
+scnd_yr_revn
+display_rank
+rsvp_cd
+display_end_date
+treat_name
+treat_score
+cmpgn_in
+greet_ty
+greet_sub_ty
+dept_cd
+dept_unit
+key_benefit
+trigger
+trigger_score
+transition_statement
+true_need
+emp_uniq_cd
+
+
+however for each emp_number below columns are common
+trigger
+trigger_score
+transition_statement
+true_need
+emp_uniq_cd
+
+right now output is :
+
+cop_iden^A0^AH5Y^ACCSG^A12334326437^A15786766426^A0.1234567890^AMaximize your points by adding someone to your dept^AI noticed you don't have any additional emps...^ANo Trigger^A0.9234567890^AControl/Convenience^APromotion^AAs a valued emp ...we.d like to extend...^AHigh Spend^A0.1234567890^ABorrowing^A1^AINS^A00000000^A^A^A^A1234.0^A00000^A00000000^A^A^A^A1234^A88888888^A^A^A^A123456.0^A00000^A00000000^A^A^AABCD00001234^A129988366^AXYZ^AEmp_info^A2017-12-28^AABCD^Acop_iden^A0^AH5Y^ACCSG^A1500026437^A1500026426^A0.1234567890^AMaximize your points by adding someone to your dept^AI noticed you don't have any additional emps...^ANo Trigger^A222^A0.9234567890^AControl/Convenience^APromo need^AAs a valued emp with us we.d like to extend...^AHigh Spend^A222^A0.1234567890^ABorrowing^A2^Aemp^A99999999^A^A^A^A109990.0^A00000^A00000000^A^A^A^A123456789999^AWQ42^AInternalAcquisition^A2017-09-28^AZ00000Y34A^AELIGIBLE
+
+Its expected format however
+its considering entire JSON as a single record
+i tired adding newline character but its not working
